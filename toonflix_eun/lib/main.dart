@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
+class Player {
+  String name;
+
+  Player({required this.name});
+}
+
 void main() {
+  var nico = Player(name: "potato");
   runApp(App());
 }
 
@@ -10,7 +17,6 @@ class App extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          centerTitle: false,
           title: Text('Hello flutter!'),
         ),
         body: Center(
