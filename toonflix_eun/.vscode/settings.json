@@ -1,3 +1,9 @@
 {
-    "cmake.sourceDirectory": "C:/Users/tara0/Desktop/Nomad코딩/Flutter로 웹툰앱만들기/toonflix/toonflix/toonflix_eun/linux"
+    "cmake.sourceDirectory": "C:/Users/tara0/Desktop/Nomad코딩/Flutter로 웹툰앱만들기/toonflix/toonflix/toonflix_eun/linux",
+
+    "dart.analysisExcludedFolders": [
+  "C:/Users/tara0/Desktop/Nomad코딩/Flutter로 웹툰앱만들기/toonflix/toonflix/toonflix_eun/linux"
+],
+"dart.showLintNames": false
 }
+
